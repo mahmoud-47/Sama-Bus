@@ -1,0 +1,123 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block head %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="{% static 'css/Acceuil.css' %}">
+    <script src="https://kit.fontawesome.com/cf4c4e6156.js" crossorigin="anonymous"></script>
+    <title>Acceuil</title>
+{% endblock head %}
+
+{% block body %}    
+    <div class="container cont-jumb">
+        <h1>Bienvenue</h1>
+        <div class="jumbotron jum-2">
+            Lorem, ipsum dolor sit amet consectetur a
+            dipisicing elit. Nobis, asperiores ipsa reprehenderit maioù
+            res vitae numquam natus distinctio impedit mollitia dignissimos, 
+            esse eaque necessitatibus pariatur aliquid nihil corrupti illum obcaecati quod!
+        </div>  
+    </div>
+    <hr class="horiz">
+    <div class="container">
+        <h1 class ="propos">Ce que nous vous proposons</h1>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">  
+        <div class="carousel-inner">
+          <div class="carousel-item active mt-4">
+            <p align = "center">
+                <img class="d-block col-lg-4 col-md-4 col-sm-4 col-8" src="{% static 'images/img.jpg' %}" alt="Third slide">
+                <br>
+                <p align = "center" class="text-light">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestias error quod, cupiditate aspernatur, 
+                    in facere quaerat quae id quibusdam incidunt perspiciatis praesentium exercitationem vero, 
+                    veniam eaque ab. Iure, impedit. 
+                </p>
+            </p>
+          </div>
+          <div class="carousel-item mt-4">
+            <p align = "center">
+                <img class="d-block col-lg-4 col-md-4 col-sm-4 col-8" src="{% static 'images/img.jpg' %}" alt="Third slide">
+                <br>
+                <p align = "center" class="text-light">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestias error quod, cupiditate aspernatur, 
+                    in facere quaerat quae id quibusdam incidunt perspiciatis praesentium exercitationem vero, 
+                    veniam eaque ab. Iure, impedit.
+                </p>
+            </p>
+          </div>
+          <div class="carousel-item mt-4">
+            <p align = "center">
+                <img class="d-block col-lg-4 col-md-4 col-sm-4 col-8" src="{% static 'images/img.jpg' %}" alt="Third slide">
+                <br>
+                <p align = "center" class="text-light">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestias error quod, cupiditate aspernatur, 
+                    in facere quaerat quae id quibusdam incidunt perspiciatis praesentium exercitationem vero, 
+                    veniam eaque ab. Iure, impedit.
+                </p>
+            </p>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span  aria-hidden="true"><i class="fas fa-chevron-left fa-3x text-light"></i></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span  aria-hidden="true"><i class="fas fa-chevron-right fa-3x text-light"></i></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <hr class="horiz">
+    <div class="container">
+        <h1 class ="propos">Membres créateurs</h1>
+    </div>
+    <footer class="text-center text-lg-start">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase name">Mohamed Gaye</h5>
+      
+              <p>
+                <img src="{% static 'images/img1.jpg' %}" class="member" alt="">
+                <p class="infos">DÉVELOPPEUR BACK-END</p>
+                <p class="rsociaux">
+                    <a href="#"><i class="fab fa-facebook-f px-2 text-primary"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp text-success px-2"></i></a>
+                    <a href="#"><i class="fab fa-github px-2 text-secondary"></i></a> 
+                </p>
+              </p>
+            </div>
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase name">Cheikh S. Sonko</h5>
+      
+              <p>
+                <img src="{% static 'images/img1.jpg' %} " class="member" alt="">
+                <p class="infos">DÉVELOPPEUR FRONT-END</p>
+                <p class="rsociaux">
+                    <a href="#"><i class="fab fa-facebook-f px-2 text-primary"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp text-success px-2"></i></a>
+                    <a href="#"><i class="fab fa-github px-2 text-secondary"></i></a> 
+                </p>             
+              </p>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.6); color: white; font-style: italic;">
+          © 2021 Copyright:
+          <a class="text-light" href="#">NotreSiteOfficiel.com</a>.
+          Tous droits réservés.
+        </div>
+        <!-- Copyright -->
+      </footer>
+    <!--Début script du site-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--Fin script du site-->
+{% endblock  %}

@@ -1,0 +1,27 @@
+body{
+    background-color: #072f5f;
+}
+header{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.labels{
+    color: white;
+    font-size: 15px;
+}
+.submit{
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    color: #072f5f;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.non-inscrit{
+    color: white;
+}
+.jumbotron{
+    padding: 10px;
+}

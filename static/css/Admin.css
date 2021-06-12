@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #072f5f;
+}
+.jum1{
+    background-image: url('../HTML/img.jpg');
+    background-repeat: no-repeat;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    border-radius: 0px;
+    box-shadow: 5px 5px 15px #000;
+}
+.jum1 h1{
+    margin-top: 235px;
+    line-height: 1.5;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.cont-jumb{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cont-jumb h1{
+    font-family: sans-serif;
+    letter-spacing: 7px;
+    color: white;
+    text-transform: uppercase;
+}
+.propos{
+    font-family: sans-serif;
+    letter-spacing: 7px;
+    color: white;
+    text-transform: uppercase;
+}
+.d-block{
+    height: 220px;
+    padding-top: 20px;
+}
+.horiz{
+    border: 1px solid white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.member{
+    width: 100px;
+    height: 100px;
+}
+.rsociaux{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.name{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.infos{
+    color: white;
+    font-style: italic;
+}
+.Réservations{
+    border: 2px solid white;
+    height: auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px #000;
+    display: flex;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+.image-bus img{
+    height: 100%;
+    width: 150px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.voyage-principal{
+    display: block;
+}
+.trajet p{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+.elements-voyage{
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+.buton{
+    margin-top: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+tr:nth-child(even){
+   background-color: rgba(0, 0, 0, 0.6);
+}
+th{
+    text-align: left;
+}
+td,th,tr{
+
+    color: white;
+    border-collapse: separate;
+}
+table{
+    width: 100%;
+}
